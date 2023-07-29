@@ -2,7 +2,7 @@
 
 TL;DR: I'm a software engineer who mainly uses **Ruby**, **Clojure**, **Go**, **SQL (PostgreSQL)** for business purposes & explores **Zig** for recreational purposes.
 
-#### Noteworthy projects you might want to check out
+### Noteworthy projects you might want to check out
 
 :moneybag: [**payment_schedule**](https://github.com/murdho/payment_schedule) (2017) — **Ruby DSL** describing and easily maintaining payment schedules (is/was used in production in a real bank)
 
