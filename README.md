@@ -1,8 +1,6 @@
-### Hey! 👋
+I'm a software engineer using mainly **Go**, **Ruby**, **Clojure**, **SQL (PostgreSQL)** in production.
 
-TL;DR: I'm a software engineer using mainly **Go**, **Ruby**, **Clojure**, **SQL (PostgreSQL)** in production. Also exploring **Zig** and **Rust** out of curiosity and enjoyment.
-
-### Noteworthy public projects you might want to check out
+Also exploring **Zig** and **Rust** out of curiosity and enjoyment.
 
 :pager: **[pi-read-meter](https://github.com/murdho/pi-read-meter)** — **Go CLI application** that ran on Raspberry Pi, automatically took photos of gas meter and uploaded those to Dropbox, so I can report the number easily while living abroad
 
