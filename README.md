@@ -1,6 +1,22 @@
-I'm a software engineer using mainly **Go**, **Ruby**, **Clojure**, **SQL (PostgreSQL)** in production.
+### whoami
 
-Also exploring **Zig** and **Rust** out of curiosity and enjoyment.
+```ruby
+def enjoying = "Ruby on Rails"
+```
+
+```html
+<hyped-about>hypermedia</hyped-about>
+```
+
+```clojure
+(map had-great-time-with ["Clojure" "Go" "PostgreSQL"])
+```
+
+```rust
+let curious_about = vec!["Rust", "Roc"];
+```
+
+### whatimade
 
 :pager: **[pi-read-meter](https://github.com/murdho/pi-read-meter)** — **Go CLI application** that ran on Raspberry Pi, automatically took photos of gas meter and uploaded those to Dropbox, so I can report the number easily while living abroad
 
