@@ -18,7 +18,7 @@ let curious_about = vec!["Rust", "Roc"];
 
 ### whatimade
 
-:rocket: **[spinning](https://github.com/murdho/spinning)** – **WebAssembly (Rust, etc.)** applications built with Spin and deployed to Fermyon Cloud
+:rocket: **[spinning](https://github.com/murdho/spinning)** — **WebAssembly (Rust, etc.)** applications built with Spin and deployed to Fermyon Cloud
 
 :pager: **[pi-read-meter](https://github.com/murdho/pi-read-meter)** — **Go CLI** application that ran on Raspberry Pi, automatically took photos of gas meter and uploaded those to Dropbox, so I could easily report the number while living abroad
 
