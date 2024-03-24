@@ -1,6 +1,6 @@
 # Murdho Savila
 
-##### Renaissance Developer
+**Renaissance Developer**
 
 * Solution-oriented full-stack developer with over a decade of (mostly remote) professional experience, always striving toward technical excellence
 * **Thriving in reasonably-paced environments** that benefit from infusing a great understanding of the business domain with expertise across the whole software stack
