@@ -13,7 +13,7 @@ def enjoying = "Ruby on Rails"
 ```
 
 ```rust
-let curious_about = vec!["Rust"];
+let curious_about = vec!["Rust", "WebAssembly"];
 ```
 
 ### creations
