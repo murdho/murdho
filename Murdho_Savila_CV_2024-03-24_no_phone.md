@@ -12,7 +12,7 @@
 
 * Software development, design, architecture and leadership, mentorship – getting things done well, both by myself and in a team
 * **Full-stack developer** with strong frontend, backend, database and infrastructure experience
-* Most proficient in **Ruby on Rails**; also experienced with **Go**, **Clojure**, **SQL** (mostly PostgreSQL), **Elasticsearch**, **Vespa.ai**
+* **Most proficient in Ruby on Rails** (used it since 2012); also experienced with **Go**, **Clojure**, **SQL** (mostly PostgreSQL), **Elasticsearch**, **Vespa.ai**
 * Tinkered with and enthusiastic about Rust, WebAssembly, SQLite
 
 
@@ -93,7 +93,7 @@
 
 ### Education
 
-**Computer Software Engineering (BSc)**
+**Computer Software Engineering (BSc) | Sep 2012 – May 2016**
 
 Estonian Information Technology College – [taltech.ee/en/itcollege](https://taltech.ee/en/itcollege)
 
