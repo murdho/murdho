@@ -5,24 +5,28 @@ def enjoying = "Ruby on Rails"
 ```
 
 ```html
-<hyped-about>hypermedia</hyped-about>
+<hyped-about>Hypermedia, Hotwire</hyped-about>
 ```
 
 ```clojure
-(map had-great-time-with ["Clojure" "Go" "PostgreSQL"])
+(def bending-my-mind-with "Clojure")
 ```
 
-```rust
-let curious_about = vec!["Rust", "WebAssembly"];
+```go
+curiousAbout := []string{"Go", "WebAssembly"}
+```
+
+```sql
+SELECT unnest('{"PostgreSQL", "SQLite"}'::text[]) AS comfortable_with;
 ```
 
 ### creations
 
 💸 **[spendbetter](https://github.com/murdho/spendbetter)** — **Ruby on Rails** & **Hotwire** application for tracking my own expenses
 
-:rocket: **[spinning](https://github.com/murdho/spinning)** — **WebAssembly (Rust, etc.)** applications built with Spin and deployed to Fermyon Cloud
-
 :pager: **[pi-read-meter](https://github.com/murdho/pi-read-meter)** — **Go CLI** application that ran on Raspberry Pi, automatically took photos of gas meter and uploaded those to Dropbox, so I could easily report the number while living abroad
+
+:rocket: **[spinning](https://github.com/murdho/spinning)** — **WebAssembly (Rust, etc.)** applications built with Spin and deployed to Fermyon Cloud
 
 :moneybag: [**payment_schedule**](https://github.com/murdho/payment_schedule) — **Ruby DSL** for describing and maintaining payment schedules (is/was used in production in an actual :bank:)
 
