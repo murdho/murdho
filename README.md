@@ -13,11 +13,11 @@ def enjoying = "Ruby on Rails"
 ```
 
 ```go
-curiousAbout := []string{"Go", "WebAssembly"}
+curiousAbout := []string{"Go", "WebAssembly", "Rust"}
 ```
 
 ```sql
-SELECT unnest('{"PostgreSQL", "SQLite"}'::text[]) AS comfortable_with;
+SELECT unnest('{"PostgreSQL", "SQLite", "DuckDB"}'::text[]) AS comfortable_with;
 ```
 
 ### creations
