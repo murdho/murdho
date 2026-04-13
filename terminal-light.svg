@@ -1,122 +1,129 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 752 378" width="752" height="378">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 812 438" width="812" height="438">
   <defs>
     <style>
       text, tspan { font-family: 'JetBrains Mono', 'Courier New', monospace; }
     </style>
 
     <clipPath id="windowClip">
-      <rect width="752" height="378" rx="10"/>
+      <rect x="30" y="20" width="752" height="378" rx="10"/>
     </clipPath>
+
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
   </defs>
+
+  <!-- Shadow layer -->
+  <rect x="30" y="20" width="752" height="378" rx="10" fill="#ffffff" filter="url(#shadow)"/>
 
   <g clip-path="url(#windowClip)">
     <!-- Terminal title bar -->
-    <rect width="752" height="30" fill="#e8e8e8"/>
-    <circle cx="20" cy="15" r="5" fill="#ff5f57"/>
-    <circle cx="38" cy="15" r="5" fill="#febc2e"/>
-    <circle cx="56" cy="15" r="5" fill="#28c840"/>
-    <text x="376" y="19" text-anchor="middle" font-size="11" fill="#6e7781">murdho@murdho.com</text>
+    <rect x="30" y="20" width="752" height="30" fill="#e8e8e8"/>
+    <circle cx="50" cy="35" r="5" fill="#ff5f57"/>
+    <circle cx="68" cy="35" r="5" fill="#febc2e"/>
+    <circle cx="86" cy="35" r="5" fill="#28c840"/>
+    <text x="406" y="39" text-anchor="middle" font-size="11" fill="#6e7781">murdho@murdho.com</text>
 
     <!-- Terminal body -->
-    <rect y="30" width="752" height="348" fill="#ffffff"/>
+    <rect x="30" y="50" width="752" height="348" fill="#ffffff"/>
 
     <!-- YAML content -->
     <g>
-      <text x="16" y="56" font-size="13">
+      <text x="46" y="66" font-size="13">
         <tspan fill="#1a7f37">❯</tspan>
         <tspan fill="#6e7781"> bat profile.yaml</tspan>
       </text>
 
-      <text x="16" y="82" font-size="13">
+      <text x="46" y="92" font-size="13">
         <tspan fill="#cf222e">name</tspan><tspan fill="#57606a">: </tspan><tspan fill="#0550ae">Murdho</tspan>
       </text>
 
-      <text x="16" y="104" font-size="13">
+      <text x="46" y="114" font-size="13">
         <tspan fill="#cf222e">role</tspan><tspan fill="#57606a">: </tspan><tspan fill="#0550ae">VP of Engineering</tspan>
       </text>
 
-      <text x="16" y="126" font-size="13">
+      <text x="46" y="136" font-size="13">
         <tspan fill="#cf222e">current_location</tspan><tspan fill="#57606a">: </tspan><tspan fill="#0550ae">Helsinki, Finland 🇫🇮</tspan>
       </text>
 
-      <text x="16" y="148" font-size="13">
+      <text x="46" y="158" font-size="13">
         <tspan fill="#cf222e">first_appeared_in</tspan><tspan fill="#57606a">: </tspan><tspan fill="#0550ae">Tallinn, Estonia 🇪🇪</tspan>
       </text>
 
-      <text x="16" y="174" font-size="13">
+      <text x="46" y="184" font-size="13">
         <tspan fill="#cf222e">focus</tspan><tspan fill="#57606a">:</tspan>
       </text>
-      <text x="32" y="194" font-size="13">
+      <text x="62" y="204" font-size="13">
         <tspan fill="#57606a">- </tspan><tspan fill="#0550ae">Automotive Data Intelligence</tspan>
       </text>
-      <text x="32" y="214" font-size="13">
+      <text x="62" y="224" font-size="13">
         <tspan fill="#57606a">- </tspan><tspan fill="#0550ae">Building with AI × Rails</tspan>
       </text>
-      <text x="32" y="234" font-size="13">
+      <text x="62" y="244" font-size="13">
         <tspan fill="#57606a">- </tspan><tspan fill="#0550ae">Solopreneur Side Quests</tspan>
       </text>
     </g>
 
     <!-- Tech stack pills -->
-    <text x="16" y="270" font-size="10" fill="#6e7781" letter-spacing="2">TOOLS</text>
-    <line x1="56" y1="267" x2="176" y2="267" stroke="#d0d7de" stroke-width="1"/>
+    <text x="46" y="280" font-size="10" fill="#6e7781" letter-spacing="2">TOOLS</text>
+    <line x1="76" y1="277" x2="206" y2="277" stroke="#d0d7de" stroke-width="1"/>
 
     <!-- Row 1 -->
     <g>
-      <rect x="16" y="280" width="56" height="22" rx="4" fill="#cc342d10" stroke="#cc342d" stroke-width="0.7"/>
-      <text x="44" y="295" text-anchor="middle" font-size="10" fill="#a3111a">Ruby</text>
+      <rect x="46" y="290" width="56" height="22" rx="4" fill="#cc342d10" stroke="#cc342d" stroke-width="0.7"/>
+      <text x="74" y="305" text-anchor="middle" font-size="10" fill="#a3111a">Ruby</text>
     </g>
     <g>
-      <rect x="80" y="280" width="52" height="22" rx="4" fill="#d1380010" stroke="#d13800" stroke-width="0.7"/>
-      <text x="106" y="295" text-anchor="middle" font-size="10" fill="#bc4c00">Rails</text>
+      <rect x="110" y="290" width="52" height="22" rx="4" fill="#d1380010" stroke="#d13800" stroke-width="0.7"/>
+      <text x="136" y="305" text-anchor="middle" font-size="10" fill="#bc4c00">Rails</text>
     </g>
     <g>
-      <rect x="140" y="280" width="72" height="22" rx="4" fill="#00add810" stroke="#0088a9" stroke-width="0.7"/>
-      <text x="176" y="295" text-anchor="middle" font-size="10" fill="#0088a9">Hotwire</text>
+      <rect x="170" y="290" width="72" height="22" rx="4" fill="#00add810" stroke="#0088a9" stroke-width="0.7"/>
+      <text x="206" y="305" text-anchor="middle" font-size="10" fill="#0088a9">Hotwire</text>
     </g>
     <g>
-      <rect x="220" y="280" width="38" height="22" rx="4" fill="#00acd710" stroke="#007d9c" stroke-width="0.7"/>
-      <text x="239" y="295" text-anchor="middle" font-size="10" fill="#007d9c">Go</text>
+      <rect x="250" y="290" width="38" height="22" rx="4" fill="#00acd710" stroke="#007d9c" stroke-width="0.7"/>
+      <text x="269" y="305" text-anchor="middle" font-size="10" fill="#007d9c">Go</text>
     </g>
     <g>
-      <rect x="266" y="280" width="90" height="22" rx="4" fill="#33679110" stroke="#336791" stroke-width="0.7"/>
-      <text x="311" y="295" text-anchor="middle" font-size="10" fill="#336791">PostgreSQL</text>
+      <rect x="296" y="290" width="90" height="22" rx="4" fill="#33679110" stroke="#336791" stroke-width="0.7"/>
+      <text x="341" y="305" text-anchor="middle" font-size="10" fill="#336791">PostgreSQL</text>
     </g>
 
     <!-- Row 2 -->
     <g>
-      <rect x="16" y="310" width="60" height="22" rx="4" fill="#003b5710" stroke="#003b57" stroke-width="0.7"/>
-      <text x="46" y="325" text-anchor="middle" font-size="10" fill="#003b57">SQLite</text>
+      <rect x="46" y="320" width="60" height="22" rx="4" fill="#003b5710" stroke="#003b57" stroke-width="0.7"/>
+      <text x="76" y="335" text-anchor="middle" font-size="10" fill="#003b57">SQLite</text>
     </g>
     <g>
-      <rect x="84" y="310" width="64" height="22" rx="4" fill="#dba80010" stroke="#9a6700" stroke-width="0.7"/>
-      <text x="116" y="325" text-anchor="middle" font-size="10" fill="#9a6700">DuckDB</text>
+      <rect x="114" y="320" width="64" height="22" rx="4" fill="#dba80010" stroke="#9a6700" stroke-width="0.7"/>
+      <text x="146" y="335" text-anchor="middle" font-size="10" fill="#9a6700">DuckDB</text>
     </g>
     <g>
-      <rect x="156" y="310" width="68" height="22" rx="4" fill="#5e439010" stroke="#5e4390" stroke-width="0.7"/>
-      <text x="190" y="325" text-anchor="middle" font-size="10" fill="#5e4390">Clojure</text>
+      <rect x="186" y="320" width="68" height="22" rx="4" fill="#5e439010" stroke="#5e4390" stroke-width="0.7"/>
+      <text x="220" y="335" text-anchor="middle" font-size="10" fill="#5e4390">Clojure</text>
     </g>
     <g>
-      <rect x="232" y="310" width="98" height="22" rx="4" fill="#ff660010" stroke="#bc4c00" stroke-width="0.7"/>
-      <text x="281" y="325" text-anchor="middle" font-size="10" fill="#bc4c00">WebAssembly</text>
+      <rect x="262" y="320" width="98" height="22" rx="4" fill="#ff660010" stroke="#bc4c00" stroke-width="0.7"/>
+      <text x="311" y="335" text-anchor="middle" font-size="10" fill="#bc4c00">WebAssembly</text>
     </g>
     <g>
-      <rect x="338" y="310" width="84" height="22" rx="4" fill="#1a7f3710" stroke="#1a7f37" stroke-width="0.7"/>
-      <text x="380" y="325" text-anchor="middle" font-size="10" fill="#1a7f37">Hypermedia</text>
+      <rect x="368" y="320" width="84" height="22" rx="4" fill="#1a7f3710" stroke="#1a7f37" stroke-width="0.7"/>
+      <text x="410" y="335" text-anchor="middle" font-size="10" fill="#1a7f37">Hypermedia</text>
     </g>
 
     <!-- Status bar -->
-    <text x="16" y="358" font-size="10" fill="#6e7781">
+    <text x="46" y="368" font-size="10" fill="#6e7781">
       <tspan fill="#1a7f37">●</tspan> touching grass
     </text>
-    <text x="376" y="358" text-anchor="middle" font-size="10" fill="#6e7781">
+    <text x="406" y="368" text-anchor="middle" font-size="10" fill="#6e7781">
       13+ years shipping code
     </text>
-    <text x="736" y="358" text-anchor="end" font-size="10" fill="#6e7781">
+    <text x="766" y="368" text-anchor="end" font-size="10" fill="#6e7781">
       <tspan fill="#cf222e">♥</tspan> open source
     </text>
   </g>
 
   <!-- Rounded border -->
-  <rect width="752" height="378" rx="10" fill="none" stroke="#d0d7de" stroke-width="1"/>
+  <rect x="30" y="20" width="752" height="378" rx="10" fill="none" stroke="#d0d7de" stroke-width="1"/>
 </svg>
